@@ -1,0 +1,37 @@
+/* adding some margin to the nav-items to make page beautiful */
+.nav-item {
+    margin: 20px 20px 0 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* enlarging the text size of logo */
+span {
+    font-size: 1.5em;
+    font-weight: 500;
+}
+
+hr{
+    border-bottom: 1px solid rgba(0, 0, 0, 1);
+}
+
+/* display-6 */
+.display-6 {
+    font-size: 1.5em;
+    font-weight: 500;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+/* designing form and its contents */
+#form {
+    width: 70%;
+    margin-left: 50px;
+}
+
+/* make the search button come at right-end */
+#end {
+    text-align: end;
+}

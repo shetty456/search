@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="advanced.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <title>Search</title>
+</head>
+<body>
+    <!--The navbar-->
+    <ul class="nav nav-pills justify-content-lg-between">
+        <!--Text and link that redirects the user to the main search page-->
+        <li class="nav-item">
+            <a href="index.html"><span class="text-primary">G</span><span class="text-danger">o</span><span class="text-warning">o</span><span class="text-primary">g</span><span class="text-success">l</span><span class="text-danger">e</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="index.html">Google Search</a>
+        </li>
+    </ul>
+    <!--Adding an heading-->
+    <h1 class="text-danger display-6">Advanced Search</h1>
+    <hr>
+    <!--The form in which query is written-->
+    <div id="form">
+        <h5>Find pages with...</h5>
+        <form action="https://google.com/search">
+            <div class="mb-3 row">
+                <label for="inputText" class="col-sm-3 col-form-label">all these words:</label>
+                <div class="col-sm-9">
+                  <input type="text" class="form-control" name="as_q">
+                </div>
+              </div>
+              <div class="mb-3 row">
+                <label for="inputText" class="col-sm-3 col-form-label">this exact word or phrase:</label>
+                <div class="col-sm-9">
+                  <input type="text" class="form-control" name = "as_epq">
+                </div>
+              </div>
+              <div class="mb-3 row">
+                <label for="inputText" class="col-sm-3 col-form-label">any of these words:</label>
+                <div class="col-sm-9">
+                  <input type="text" class="form-control" name="as_oq">
+                </div>
+              </div>
+              <div class="mb-3 row">
+                <label for="inputText" class="col-sm-3 col-form-label">none of these words:</label>
+                <div class="col-sm-9">
+                  <input type="text" class="form-control" name="as_eq">
+                </div>
+              </div>
+
+            <div id="end">
+                <input type="submit" class="btn btn-primary" value="Advanced Search">
+            </div>
+        </form>
+    </div>
+</body>
+</html>
